@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB51EBC526104CFC00BD8551 /* SpellingGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51EBC426104CFC00BD8551 /* SpellingGameApp.swift */; };
+		AB51EBC726104CFC00BD8551 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51EBC626104CFC00BD8551 /* ContentView.swift */; };
+		AB51EBC926104CFF00BD8551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB51EBC826104CFF00BD8551 /* Assets.xcassets */; };
+		AB51EBCC26104CFF00BD8551 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB51EBCB26104CFF00BD8551 /* Preview Assets.xcassets */; };
+		AB51EBD726104CFF00BD8551 /* SpellingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51EBD626104CFF00BD8551 /* SpellingGameTests.swift */; };
+		AB51EBE226104CFF00BD8551 /* SpellingGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB51EBE126104CFF00BD8551 /* SpellingGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB51EBD326104CFF00BD8551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB51EBB926104CFC00BD8551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB51EBC026104CFC00BD8551;
+			remoteInfo = SpellingGame;
+		};
+		AB51EBDE26104CFF00BD8551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB51EBB926104CFC00BD8551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB51EBC026104CFC00BD8551;
+			remoteInfo = SpellingGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB51EBC126104CFC00BD8551 /* SpellingGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpellingGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB51EBC426104CFC00BD8551 /* SpellingGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingGameApp.swift; sourceTree = "<group>"; };
+		AB51EBC626104CFC00BD8551 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB51EBC826104CFF00BD8551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB51EBCB26104CFF00BD8551 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB51EBCD26104CFF00BD8551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB51EBD226104CFF00BD8551 /* SpellingGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellingGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB51EBD626104CFF00BD8551 /* SpellingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingGameTests.swift; sourceTree = "<group>"; };
+		AB51EBD826104CFF00BD8551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB51EBDD26104CFF00BD8551 /* SpellingGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpellingGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB51EBE126104CFF00BD8551 /* SpellingGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellingGameUITests.swift; sourceTree = "<group>"; };
+		AB51EBE326104CFF00BD8551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB51EBBE26104CFC00BD8551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB51EBCF26104CFF00BD8551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB51EBDA26104CFF00BD8551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB51EBB826104CFC00BD8551 = {
+			isa = PBXGroup;
+			children = (
+				AB51EBC326104CFC00BD8551 /* SpellingGame */,
+				AB51EBD526104CFF00BD8551 /* SpellingGameTests */,
+				AB51EBE026104CFF00BD8551 /* SpellingGameUITests */,
+				AB51EBC226104CFC00BD8551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB51EBC226104CFC00BD8551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB51EBC126104CFC00BD8551 /* SpellingGame.app */,
+				AB51EBD226104CFF00BD8551 /* SpellingGameTests.xctest */,
+				AB51EBDD26104CFF00BD8551 /* SpellingGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB51EBC326104CFC00BD8551 /* SpellingGame */ = {
+			isa = PBXGroup;
+			children = (
+				AB51EBC426104CFC00BD8551 /* SpellingGameApp.swift */,
+				AB51EBC626104CFC00BD8551 /* ContentView.swift */,
+				AB51EBC826104CFF00BD8551 /* Assets.xcassets */,
+				AB51EBCD26104CFF00BD8551 /* Info.plist */,
+				AB51EBCA26104CFF00BD8551 /* Preview Content */,
+			);
+			path = SpellingGame;
+			sourceTree = "<group>";
+		};
+		AB51EBCA26104CFF00BD8551 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB51EBCB26104CFF00BD8551 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB51EBD526104CFF00BD8551 /* SpellingGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB51EBD626104CFF00BD8551 /* SpellingGameTests.swift */,
+				AB51EBD826104CFF00BD8551 /* Info.plist */,
+			);
+			path = SpellingGameTests;
+			sourceTree = "<group>";
+		};
+		AB51EBE026104CFF00BD8551 /* SpellingGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB51EBE126104CFF00BD8551 /* SpellingGameUITests.swift */,
+				AB51EBE326104CFF00BD8551 /* Info.plist */,
+			);
+			path = SpellingGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB51EBC026104CFC00BD8551 /* SpellingGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB51EBE626104CFF00BD8551 /* Build configuration list for PBXNativeTarget "SpellingGame" */;
+			buildPhases = (
+				AB51EBBD26104CFC00BD8551 /* Sources */,
+				AB51EBBE26104CFC00BD8551 /* Frameworks */,
+				AB51EBBF26104CFC00BD8551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpellingGame;
+			productName = SpellingGame;
+			productReference = AB51EBC126104CFC00BD8551 /* SpellingGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB51EBD126104CFF00BD8551 /* SpellingGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB51EBE926104CFF00BD8551 /* Build configuration list for PBXNativeTarget "SpellingGameTests" */;
+			buildPhases = (
+				AB51EBCE26104CFF00BD8551 /* Sources */,
+				AB51EBCF26104CFF00BD8551 /* Frameworks */,
+				AB51EBD026104CFF00BD8551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB51EBD426104CFF00BD8551 /* PBXTargetDependency */,
+			);
+			name = SpellingGameTests;
+			productName = SpellingGameTests;
+			productReference = AB51EBD226104CFF00BD8551 /* SpellingGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB51EBDC26104CFF00BD8551 /* SpellingGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB51EBEC26104CFF00BD8551 /* Build configuration list for PBXNativeTarget "SpellingGameUITests" */;
+			buildPhases = (
+				AB51EBD926104CFF00BD8551 /* Sources */,
+				AB51EBDA26104CFF00BD8551 /* Frameworks */,
+				AB51EBDB26104CFF00BD8551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB51EBDF26104CFF00BD8551 /* PBXTargetDependency */,
+			);
+			name = SpellingGameUITests;
+			productName = SpellingGameUITests;
+			productReference = AB51EBDD26104CFF00BD8551 /* SpellingGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB51EBB926104CFC00BD8551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					AB51EBC026104CFC00BD8551 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					AB51EBD126104CFF00BD8551 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AB51EBC026104CFC00BD8551;
+					};
+					AB51EBDC26104CFF00BD8551 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = AB51EBC026104CFC00BD8551;
+					};
+				};
+			};
+			buildConfigurationList = AB51EBBC26104CFC00BD8551 /* Build configuration list for PBXProject "SpellingGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB51EBB826104CFC00BD8551;
+			productRefGroup = AB51EBC226104CFC00BD8551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB51EBC026104CFC00BD8551 /* SpellingGame */,
+				AB51EBD126104CFF00BD8551 /* SpellingGameTests */,
+				AB51EBDC26104CFF00BD8551 /* SpellingGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB51EBBF26104CFC00BD8551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB51EBCC26104CFF00BD8551 /* Preview Assets.xcassets in Resources */,
+				AB51EBC926104CFF00BD8551 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB51EBD026104CFF00BD8551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB51EBDB26104CFF00BD8551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB51EBBD26104CFC00BD8551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB51EBC726104CFC00BD8551 /* ContentView.swift in Sources */,
+				AB51EBC526104CFC00BD8551 /* SpellingGameApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB51EBCE26104CFF00BD8551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB51EBD726104CFF00BD8551 /* SpellingGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB51EBD926104CFF00BD8551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB51EBE226104CFF00BD8551 /* SpellingGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB51EBD426104CFF00BD8551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB51EBC026104CFC00BD8551 /* SpellingGame */;
+			targetProxy = AB51EBD326104CFF00BD8551 /* PBXContainerItemProxy */;
+		};
+		AB51EBDF26104CFF00BD8551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB51EBC026104CFC00BD8551 /* SpellingGame */;
+			targetProxy = AB51EBDE26104CFF00BD8551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB51EBE426104CFF00BD8551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB51EBE526104CFF00BD8551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB51EBE726104CFF00BD8551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpellingGame/Preview Content\"";
+				DEVELOPMENT_TEAM = CQCPP83MT6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SpellingGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chase.SpellingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB51EBE826104CFF00BD8551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SpellingGame/Preview Content\"";
+				DEVELOPMENT_TEAM = CQCPP83MT6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SpellingGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chase.SpellingGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB51EBEA26104CFF00BD8551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQCPP83MT6;
+				INFOPLIST_FILE = SpellingGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chase.SpellingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpellingGame.app/SpellingGame";
+			};
+			name = Debug;
+		};
+		AB51EBEB26104CFF00BD8551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQCPP83MT6;
+				INFOPLIST_FILE = SpellingGameTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chase.SpellingGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpellingGame.app/SpellingGame";
+			};
+			name = Release;
+		};
+		AB51EBED26104CFF00BD8551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQCPP83MT6;
+				INFOPLIST_FILE = SpellingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chase.SpellingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpellingGame;
+			};
+			name = Debug;
+		};
+		AB51EBEE26104CFF00BD8551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CQCPP83MT6;
+				INFOPLIST_FILE = SpellingGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Chase.SpellingGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpellingGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB51EBBC26104CFC00BD8551 /* Build configuration list for PBXProject "SpellingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB51EBE426104CFF00BD8551 /* Debug */,
+				AB51EBE526104CFF00BD8551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB51EBE626104CFF00BD8551 /* Build configuration list for PBXNativeTarget "SpellingGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB51EBE726104CFF00BD8551 /* Debug */,
+				AB51EBE826104CFF00BD8551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB51EBE926104CFF00BD8551 /* Build configuration list for PBXNativeTarget "SpellingGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB51EBEA26104CFF00BD8551 /* Debug */,
+				AB51EBEB26104CFF00BD8551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB51EBEC26104CFF00BD8551 /* Build configuration list for PBXNativeTarget "SpellingGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB51EBED26104CFF00BD8551 /* Debug */,
+				AB51EBEE26104CFF00BD8551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB51EBB926104CFC00BD8551 /* Project object */;
+}
